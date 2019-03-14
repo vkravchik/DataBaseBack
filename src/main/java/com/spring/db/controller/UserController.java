@@ -19,9 +19,9 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @RequestMapping("/{id}")
-    public Optional<User> findUser(@PathVariable("id") int id) {
-        return userRepository.findById(id);
+    @GetMapping("/{id}")
+    public User findUser(@PathVariable("id") int id) {
+        return userRepository.findById(id).get();
     }
 
     @DeleteMapping("/{id}")
