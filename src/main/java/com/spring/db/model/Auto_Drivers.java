@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Driver {
+public class Auto_Drivers {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -14,10 +14,10 @@ public class Driver {
     private String surname;
     private Integer id_auto;
 
-    public Driver() {
+    public Auto_Drivers() {
     }
 
-    public Driver(Integer id, String name, String surname, Integer id_auto) {
+    public Auto_Drivers(Integer id, String name, String surname, Integer id_auto) {
         this.id = id;
         this.name = name;
         this.surname = surname;

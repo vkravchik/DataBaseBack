@@ -36,7 +36,7 @@ public class UserController {
         return userRepository.save(user);
     }
 
-    @PostMapping("/addUser")
+    @PostMapping("/add")
     public Iterable<User> saveUser(@RequestBody final User user) {
         userRepository.save(user);
         return userRepository.findAll();
