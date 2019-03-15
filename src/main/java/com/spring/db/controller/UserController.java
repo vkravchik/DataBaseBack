@@ -37,8 +37,8 @@ public class UserController {
     }
 
     @PostMapping("/add")
-    public Iterable<User> saveUser(@RequestBody final User user) {
+    public User saveUser(@RequestBody final User user) {
         userRepository.save(user);
-        return userRepository.findAll();
+        return user;
     }
 }
