@@ -1,7 +1,7 @@
 package com.spring.db.controller;
 
-import com.spring.db.model.Auto_Drivers;
-import com.spring.db.repository.Auto_DriverRepository;
+import com.spring.db.model.AutoDrivers;
+import com.spring.db.repository.AutoDriverRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -10,32 +10,32 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(value = "/rest/drivers")
 public class Auto_DriverController {
     @Autowired
-    private Auto_DriverRepository autoDriverRepository;
+    private AutoDriverRepository autoDriverRepository;
 
     @GetMapping("/all")
-    public Iterable<Auto_Drivers> getAll() {
+    public Iterable<AutoDrivers> getAll() {
         return autoDriverRepository.findAll();
     }
 
     @GetMapping("/{id}")
-    public Auto_Drivers findDriver(@PathVariable("id") int id) {
+    public AutoDrivers findDriver(@PathVariable("id") int id) {
         return autoDriverRepository.findById(id).get();
     }
 
     @DeleteMapping("/{id}")
-    public void deleteDriver(@PathVariable("id") Auto_Drivers autoDrivers) {
+    public void deleteDriver(@PathVariable("id") AutoDrivers autoDrivers) {
         autoDriverRepository.delete(autoDrivers);
     }
 
     @PutMapping("/{id}")
-    public Auto_Drivers editUser(@PathVariable("id") Auto_Drivers autoDrivers,
-                                 @RequestBody Auto_Drivers newDriver) {
+    public AutoDrivers editUser(@PathVariable("id") AutoDrivers autoDrivers,
+                                @RequestBody AutoDrivers newDriver) {
         BeanUtils.copyProperties(newDriver, autoDrivers, "id");
         return autoDriverRepository.save(autoDrivers);
     }
 
     @PostMapping("/add")
-    public Iterable<Auto_Drivers> saveDriver(@RequestBody final Auto_Drivers autoDrivers) {
+    public Iterable<AutoDrivers> saveDriver(@RequestBody final AutoDrivers autoDrivers) {
         autoDriverRepository.save(autoDrivers);
         return autoDriverRepository.findAll();
     }
