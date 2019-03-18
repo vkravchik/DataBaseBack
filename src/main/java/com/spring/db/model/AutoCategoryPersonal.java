@@ -1,16 +1,22 @@
 package com.spring.db.model;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
-@Table(name = "auto_marka")
-public class AutoMarka {
+@Table(name = "auto_category_personal")
+public class AutoCategoryPersonal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Integer id;
     private String name;
+
+    public AutoCategoryPersonal() {
+    }
+
+    public AutoCategoryPersonal(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public Integer getId() {
         return id;
@@ -26,13 +32,5 @@ public class AutoMarka {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public AutoMarka(Integer id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public AutoMarka() {
     }
 }

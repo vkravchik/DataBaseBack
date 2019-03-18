@@ -16,24 +16,13 @@ public class Auto {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(
-            name = "id_category",
-            referencedColumnName = "id",
-            insertable = false,
-            updatable = false)
+    @JoinColumn(name = "id_category")
     private AutoCategory autoCategory;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(
-            name = "id_marka",
-            referencedColumnName = "id",
-            insertable = false,
-            updatable = false)
+    @JoinColumn(name = "id_marka")
     private AutoMarka autoMarka;
-
-//    @OneToMany(mappedBy = "auto")
-//    private List<AutoDrivers> autoDrivers;
 
     public Auto() {
     }

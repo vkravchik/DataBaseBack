@@ -1,14 +1,15 @@
 package com.spring.db.model;
 
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.NotFoundAction;
+
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
-@Table(name = "auto_marka")
-public class AutoMarka {
+@Table(name = "auto_brigada")
+public class AutoBrigada {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Integer id;
     private String name;
 
@@ -28,11 +29,11 @@ public class AutoMarka {
         this.name = name;
     }
 
-    public AutoMarka(Integer id, String name) {
-        this.id = id;
-        this.name = name;
+    public AutoBrigada() {
     }
 
-    public AutoMarka() {
+    public AutoBrigada(Integer id, String name) {
+        this.id = id;
+        this.name = name;
     }
 }

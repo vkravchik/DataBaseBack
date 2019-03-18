@@ -12,9 +12,6 @@ public class AutoCategory {
     private Integer id;
     private String name;
 
-    @OneToMany(mappedBy = "autoCategory")
-    private List<Auto> autos;
-
     public AutoCategory() {
     }
 
