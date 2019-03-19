@@ -20,8 +20,8 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public User findUser(@PathVariable("id") int id) {
-        return userRepository.findById(id).get();
+    public User findUser(@PathVariable("id") User user) {
+        return user;
     }
 
     @DeleteMapping("/{id}")

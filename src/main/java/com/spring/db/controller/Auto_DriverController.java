@@ -18,8 +18,8 @@ public class Auto_DriverController {
     }
 
     @GetMapping("/{id}")
-    public AutoDrivers findDriver(@PathVariable("id") int id) {
-        return autoDriverRepository.findById(id).get();
+    public AutoDrivers find(@PathVariable("id") AutoDrivers autoDrivers) {
+        return autoDrivers;
     }
 
     @DeleteMapping("/{id}")
