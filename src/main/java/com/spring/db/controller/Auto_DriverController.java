@@ -35,8 +35,8 @@ public class Auto_DriverController {
     }
 
     @PostMapping("/add")
-    public Iterable<AutoDrivers> saveDriver(@RequestBody final AutoDrivers autoDrivers) {
+    public AutoDrivers saveDriver(@RequestBody final AutoDrivers autoDrivers) {
         autoDriverRepository.save(autoDrivers);
-        return autoDriverRepository.findAll();
+        return autoDrivers;
     }
 }

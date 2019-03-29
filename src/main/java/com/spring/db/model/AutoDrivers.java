@@ -16,11 +16,7 @@ public class AutoDrivers {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(
-            name = "id_auto",
-            referencedColumnName = "id",
-            insertable = false,
-            updatable = false)
+    @JoinColumn(name = "id_auto")
     private Auto auto;
 
     public AutoDrivers() {
