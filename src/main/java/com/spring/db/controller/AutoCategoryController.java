@@ -4,7 +4,10 @@ import com.spring.db.model.AutoCategory;
 import com.spring.db.repository.AutoCategoryRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+
+import java.awt.*;
 
 @RestController
 @RequestMapping("/rest/category")
