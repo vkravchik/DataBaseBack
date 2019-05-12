@@ -29,10 +29,10 @@ public class AutoRepair {
     @JoinColumn(name = "id_personal")
     private AutoPersonal autoPersonal;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(name = "id_category")
-    private AutoCategory autoCategory;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @NotFound(action = NotFoundAction.IGNORE)
+//    @JoinColumn(name = "id_category")
+//    private AutoCategory autoCategory;
 
     private String price;
 
@@ -76,13 +76,13 @@ public class AutoRepair {
         this.autoPersonal = autoPersonal;
     }
 
-    public AutoCategory getAutoCategory() {
-        return autoCategory;
-    }
+//    public AutoCategory getAutoCategory() {
+//        return autoCategory;
+//    }
 
-    public void setAutoCategory(AutoCategory autoCategory) {
-        this.autoCategory = autoCategory;
-    }
+//    public void setAutoCategory(AutoCategory autoCategory) {
+//        this.autoCategory = autoCategory;
+//    }
 
     public String getPrice() {
         return price;
@@ -95,13 +95,13 @@ public class AutoRepair {
     public AutoRepair() {
     }
 
-    public AutoRepair(Integer id, AutoProblem autoProblem, Auto auto, Date date, AutoPersonal autoPersonal, AutoCategory autoCategory, String price) {
+    public AutoRepair(Integer id, AutoProblem autoProblem, Auto auto, Date date, AutoPersonal autoPersonal, String price) {
         this.id = id;
         this.autoProblem = autoProblem;
         this.auto = auto;
         this.date = date;
         this.autoPersonal = autoPersonal;
-        this.autoCategory = autoCategory;
+//        this.autoCategory = autoCategory;
         this.price = price;
     }
 }

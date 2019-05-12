@@ -40,4 +40,9 @@ public class AutoRouteController {
         autoRouteRepository.save(autoRoute);
         return autoRoute;
     }
+
+    @GetMapping("/getAll")
+    public Iterable<AutoRoute> findAll() {
+        return autoRouteRepository.findAll();
+    }
 }

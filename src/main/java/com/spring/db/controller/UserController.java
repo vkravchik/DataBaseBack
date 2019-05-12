@@ -6,8 +6,6 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
-
 @RestController
 @RequestMapping(value = "/rest/users")
 public class UserController {
@@ -40,5 +38,10 @@ public class UserController {
     public User saveUser(@RequestBody final User user) {
         userRepository.save(user);
         return user;
+    }
+
+    @GetMapping("/byEmail")
+    public Iterable<User> byEmail(@RequestParam("email") String email) {
+        return userRepository.findByEmail(email);
     }
 }

@@ -20,7 +20,7 @@ public class AutoGroup {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(name = "id_driver")
+    @JoinColumn(name = "id_drivers")
     private AutoDrivers autoDrivers;
 
     @ManyToOne(fetch = FetchType.LAZY)

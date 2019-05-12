@@ -4,6 +4,7 @@ import com.spring.db.model.AutoInfrastruct;
 import com.spring.db.repository.AutoInfrastructRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -38,5 +39,16 @@ public class AutoInfrastructController {
     public AutoInfrastruct save(@RequestBody final AutoInfrastruct autoInfrastruct) {
         autoInfrastructRepository.save(autoInfrastruct);
         return autoInfrastruct;
+    }
+
+//    SQL
+    @RequestMapping("/getAllGarage")
+    public Iterable<AutoInfrastruct> findAllGarage() {
+        return autoInfrastructRepository.findAllGarage();
+    }
+
+    @RequestMapping("/getAllGarageByCategory")
+    public Iterable<AutoInfrastruct> findAllGarageByCategory(@RequestParam("category") String category) {
+        return autoInfrastructRepository.findAllGarageByCategory(category);
     }
 }

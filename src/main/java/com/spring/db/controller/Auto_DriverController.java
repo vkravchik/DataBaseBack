@@ -39,4 +39,15 @@ public class Auto_DriverController {
         autoDriverRepository.save(autoDrivers);
         return autoDrivers;
     }
+
+
+    @RequestMapping("/getAll")
+    public Iterable<AutoDrivers> findAll() {
+        return autoDriverRepository.findAll();
+    }
+
+    @RequestMapping("/getAllByAuto")
+    public Iterable<AutoDrivers> byAuto(@RequestParam("auto") String auto) {
+        return autoDriverRepository.byAuto(auto);
+    }
 }

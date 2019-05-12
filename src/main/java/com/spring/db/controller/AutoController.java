@@ -39,4 +39,9 @@ public class AutoController {
         autoRepository.save(auto);
         return auto;
     }
+
+    @RequestMapping("/getAll")
+    public Iterable<Auto> findAll() {
+        return autoRepository.findAll();
+    }
 }

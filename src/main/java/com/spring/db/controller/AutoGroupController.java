@@ -39,4 +39,9 @@ public class AutoGroupController {
         autoGroupRepository.save(autoGroup);
         return autoGroup;
     }
+
+    @RequestMapping("/getAll")
+    public Iterable<AutoGroup> findAll() {
+        return autoGroupRepository.findAll();
+    }
 }
