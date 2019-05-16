@@ -17,7 +17,7 @@ public interface AutoRepairRepository extends JpaRepository<AutoRepair, Integer>
 
     @Query(value = "SELECT * FROM `auto_repair`\n" +
             "INNER JOIN auto_auto ON auto_repair.id_auto = auto_auto.id\n" +
-            "INNER JOIN auto_marka ON auto_auto.id_marka = auto_marka.id\n" +
+            "INNER JOIN au_mtoarka ON auto_auto.id_marka = auto_marka.id\n" +
             "WHERE auto_marka.name = :marka", nativeQuery = true)
     List<AutoRepair> findByMarka(@Param("marka") String marka);
 

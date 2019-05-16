@@ -2,32 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af7b05fd-ccf6-4493-8411-45081f352e7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/Auto_DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/Auto_DriverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoRepair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoRepair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoDriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoDriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_test_proj.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRouteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRouteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/SimpleCORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/SimpleCORSFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadirController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadirController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoCategoryPersonalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoCategoryPersonalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoGroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoGroupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoHardRouteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoHardRouteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoInfrastructController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoInfrastructController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoMarkaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoMarkaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoPersonalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoPersonalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoProblemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoProblemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoPropController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoPropController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoRepairController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoRepairController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoRouteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoRouteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoSaleBuyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoSaleBuyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoStreetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoStreetController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/Auto_DriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/Auto_DriverController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoBrigada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoBrigada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoBrigadir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoBrigadir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoCategoryPersonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoCategoryPersonal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoDrivers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoHardRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoHardRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoInfrastruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoInfrastruct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoMarka.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoMarka.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoPersonal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoPersonal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoProp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoProp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoRepair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoRepair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoSaleBuy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoSaleBuy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoStreet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoStreet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoDriverRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoDriverRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoInfrastructRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoInfrastructRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRepairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRepairRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRouteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRouteRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/UserRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,99 +66,63 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2041760199">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="67" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="5" />
-          <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="8" />
-          <entry key="project.open.time.14" value="5" />
-          <entry key="project.open.time.15" value="5" />
-          <entry key="project.open.time.16" value="6" />
-          <entry key="project.open.time.17" value="4" />
-          <entry key="project.open.time.18" value="5" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="71" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="html" value="315" />
-          <entry key="java" value="9069" />
-          <entry key="properties" value="214" />
-          <entry key="xml" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="315" />
-          <entry key="JAVA" value="9069" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Properties" value="214" />
-          <entry key="XML" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="htm" value="1" />
-          <entry key="html" value="19" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="313" />
-          <entry key="properties" value="13" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="HTML" value="20" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="313" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="13" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="api@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="api: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="api@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="api: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
-              <folding>
-                <element signature="e#1565#1566#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="167">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -162,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoBrigada.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoBrigadir.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadirController.java" />
@@ -174,13 +159,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/docs.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/title.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/doc.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/title.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/doc.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoDrivers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoCategoryController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/SimpleCORSFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoBrigadaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoBrigadirRepository.java" />
@@ -208,11 +191,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/Auto_DriverController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRouteController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/06c55fde-efa7-4f85-b723-0d892d7d43d5/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -236,7 +222,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -276,33 +261,7 @@
               <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,8 +270,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557424900108" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAPZ" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -340,10 +304,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.db.Application" />
       <module name="spring_test_proj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_test_proj" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.db.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,8 +335,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552322564037</updated>
+      <workItem from="1557841978272" duration="342000" />
+      <workItem from="1557842384741" duration="314000" />
+      <workItem from="1557947931316" duration="49000" />
+      <workItem from="1557991526531" duration="1244000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,26 +356,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3167785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28652483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47875354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27092198" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27053824" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,30 +390,19 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Database" order="10" weight="0.3295302" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoSaleBuyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoSaleBuy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -511,45 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoPersonalRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoProblemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoPropRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoSaleBuyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoStreetRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoMarkaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -564,13 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -665,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -681,13 +604,6 @@
             <element signature="e#1252#1253#0" expanded="true" />
             <element signature="e#1310#1311#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -713,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -771,31 +677,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="221">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoPersonalRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
-          <folding>
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/06c55fde-efa7-4f85-b723-0d892d7d43d5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoMarkaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoSaleBuyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoPropRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoProblemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
