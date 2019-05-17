@@ -2,9 +2,12 @@ package com.spring.db.controller;
 
 import com.spring.db.model.AutoHardRoute;
 import com.spring.db.repository.AutoHardRouteRepository;
+import com.spring.db.utils.Utils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.time.LocalDate;
 
 @RestController
 @RequestMapping("rest/hardRoute")
@@ -38,5 +41,12 @@ public class AutoHardRouteController {
     public AutoHardRoute save(@RequestBody final AutoHardRoute autoHardRoute) {
         autoHardRouteRepository.save(autoHardRoute);
         return autoHardRoute;
+    }
+
+    @RequestMapping("/findByAutoAndDate")
+    public Iterable<AutoHardRoute> findByAutoAndDate(@RequestParam("auto_id") String auto_id,
+                                                     @RequestParam("date")String date) {
+        LocalDate cur_date = Utils.getDateFromString(date);
+        return autoHardRouteRepository.findAllByAutoAndDate(auto_id, cur_date);
     }
 }

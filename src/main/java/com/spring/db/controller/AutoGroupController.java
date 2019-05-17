@@ -44,4 +44,9 @@ public class AutoGroupController {
     public Iterable<AutoGroup> findAll() {
         return autoGroupRepository.findAll();
     }
+
+    @RequestMapping("/getBrigadir")
+    public Iterable<AutoGroup> findAllBrig(@RequestParam("id") String id) {
+        return autoGroupRepository.findAllByBrigadir(id);
+    }
 }
