@@ -2,18 +2,361 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af7b05fd-ccf6-4493-8411-45081f352e7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-auto/add-auto.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-auto/add-auto.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-auto/add-auto.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-auto/add-auto.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigada/add-brigada.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigada/add-brigada.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigada/add-brigada.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigada/add-brigada.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigadir/add-brigadir.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigadir/add-brigadir.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigadir/add-brigadir.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-brigadir/add-brigadir.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category-personal/add-category-personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category-personal/add-category-personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category-personal/add-category-personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category-personal/add-category-personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category/add-category.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category/add-category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category/add-category.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-category/add-category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-driver/add-driver.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-driver/add-driver.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-driver/add-driver.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-driver/add-driver.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-group/add-group.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-group/add-group.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-group/add-group.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-group/add-group.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-har-route/add-har-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-har-route/add-har-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-har-route/add-har-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-har-route/add-har-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-infrastruct/add-infrastruct.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-infrastruct/add-infrastruct.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-infrastruct/add-infrastruct.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-infrastruct/add-infrastruct.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-marka/add-marka.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-marka/add-marka.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-marka/add-marka.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-marka/add-marka.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-personal/add-personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-personal/add-personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-personal/add-personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-personal/add-personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-problem/add-problem.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-problem/add-problem.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-problem/add-problem.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-problem/add-problem.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-repair/add-repair.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-repair/add-repair.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-repair/add-repair.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-repair/add-repair.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-route/add-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-route/add-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-route/add-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-route/add-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-sale-buy/add-sale-buy.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-sale-buy/add-sale-buy.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-sale-buy/add-sale-buy.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-sale-buy/add-sale-buy.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-street/add-street.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-street/add-street.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-street/add-street.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-street/add-street.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-user/add-user.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-user/add-user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-user/add-user.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/add/add-user/add-user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-route/dialogs-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-route/dialogs-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-route/dialogs-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-route/dialogs-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-street/dialogs-street.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-street/dialogs-street.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-street/dialogs-street.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/dialogs-street/dialogs-street.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-auto/edit-auto.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-auto/edit-auto.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-auto/edit-auto.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-auto/edit-auto.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigada/edit-brigada.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigada/edit-brigada.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigada/edit-brigada.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigada/edit-brigada.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigadir/edit-brigadir.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigadir/edit-brigadir.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigadir/edit-brigadir.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-brigadir/edit-brigadir.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category-personal/edit-category-personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category-personal/edit-category-personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category-personal/edit-category-personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category-personal/edit-category-personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category/edit-category.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category/edit-category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category/edit-category.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-category/edit-category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-driver/edit-driver.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-driver/edit-driver.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-driver/edit-driver.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-driver/edit-driver.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-group/edit-group.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-group/edit-group.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-group/edit-group.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-group/edit-group.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-hard-route/edit-hard-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-hard-route/edit-hard-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-hard-route/edit-hard-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-hard-route/edit-hard-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-infrastruct/edit-infrastruct.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-infrastruct/edit-infrastruct.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-infrastruct/edit-infrastruct.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-infrastruct/edit-infrastruct.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-marka/edit-marka.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-marka/edit-marka.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-marka/edit-marka.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-marka/edit-marka.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-personal/edit-personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-personal/edit-personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-personal/edit-personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-personal/edit-personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-problem/edit-problem.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-problem/edit-problem.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-problem/edit-problem.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-problem/edit-problem.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-repair/edit-repair.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-repair/edit-repair.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-repair/edit-repair.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-repair/edit-repair.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-route/edit-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-route/edit-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-route/edit-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-route/edit-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-sale-buy/edit-sale-buy.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-sale-buy/edit-sale-buy.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-sale-buy/edit-sale-buy.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-sale-buy/edit-sale-buy.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-street/edit-street.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-street/edit-street.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-street/edit-street.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-street/edit-street.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-user/edit-user.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-user/edit-user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-user/edit-user.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/dialogs/edit/edit-user/edit-user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/Apis.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/Auto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoBrigada.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoBrigadir.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoCategory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoCategoryPersonal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoDrivers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoGroup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoHardRoute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoInfrastruct.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoMarka.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoPersonal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoProblem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoProp.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoRepair.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoRoute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoSaleBuy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/AutoStreet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/Driver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/model/nav-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/api-table/api-table.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/api-table/api-table.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/api-table/api-table.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/api-table/api-table.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/auto/auto.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/auto/auto.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/auto/auto.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/auto/auto.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigada/brigada.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigada/brigada.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigada/brigada.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigada/brigada.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigadir/brigadir.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigadir/brigadir.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigadir/brigadir.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/brigadir/brigadir.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category-personal/category-personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category-personal/category-personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category-personal/category-personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category-personal/category-personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category/category.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category/category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category/category.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/category/category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/drivers/drivers.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/drivers/drivers.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/drivers/drivers.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/drivers/drivers.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/group/group.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/group/group.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/group/group.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/group/group.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/hard-route/hard-route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/hard-route/hard-route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/hard-route/hard-route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/hard-route/hard-route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/infrastruct/infrastruct.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/infrastruct/infrastruct.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/infrastruct/infrastruct.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/infrastruct/infrastruct.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/marka/marka.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/marka/marka.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/marka/marka.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/marka/marka.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/personal/personal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/personal/personal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/personal/personal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/personal/personal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/problem/problem.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/problem/problem.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/problem/problem.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/problem/problem.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/prop/prop.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/prop/prop.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/prop/prop.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/prop/prop.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/repair/repair.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/repair/repair.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/repair/repair.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/repair/repair.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/route/route.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/route/route.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/route/route.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/route/route.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/sale-buy/sale-buy.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/sale-buy/sale-buy.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/sale-buy/sale-buy.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/sale-buy/sale-buy.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/street/street.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/street/street.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/street/street.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/street/street.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/user/user.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/user/user.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/user/user.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/page/user/user.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query1/query1.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query1/query1.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query1/query1.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query1/query1.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/q10d/q10d.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/q10d/q10d.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/q10d/q10d.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/q10d/q10d.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/query10.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/query10.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/query10.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query10/query10.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/q2d/q2d.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/q2d/q2d.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/q2d/q2d.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/q2d/q2d.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/query2.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/query2.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/query2.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query2/query2.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query3/query3.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query3/query3.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query3/query3.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query3/query3.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query4/query4.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query4/query4.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query4/query4.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query4/query4.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/q6d/q6d.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/q6d/q6d.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/q6d/q6d.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/q6d/q6d.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/query6.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/query6.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/query6.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query6/query6.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query7/query7.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query7/query7.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query7/query7.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query7/query7.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/q8d/q8d.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/q8d/q8d.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/q8d/q8d.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/q8d/q8d.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/query8.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/query8.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/query8.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query8/query8.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query9/query9.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query9/query9.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query9/query9.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/query/query9/query9.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/api-service.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/auto.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/brigada.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/brigadir.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/category-personal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/category.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/dialog.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/driver.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/error.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/group.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/hard-route.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/infrastruct.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/marka.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/personal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/problem.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/query.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/repair.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/route.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/sale-buy.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/street.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/app/services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ui/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoHardRouteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoHardRouteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoSaleBuyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoSaleBuyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoHardRouteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoHardRouteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoSaleBuyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoSaleBuyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/SimpleCORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/SimpleCORSFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/controller/AutoBrigadaController.class" afterDir="false" />
@@ -53,10 +396,16 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoStreet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/AutoStreet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoDriverRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoDriverRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoGroupRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoGroupRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoHardRouteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoHardRouteRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoInfrastructRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoInfrastructRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRepairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoRepairRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoSaleBuyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/AutoSaleBuyRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/db/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/db/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/title.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,25 +464,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="46" column="71" lean-forward="true" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-784">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/ui/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -159,7 +502,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadirController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoMarkaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoPersonalController.java" />
@@ -200,7 +542,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoInfrastructRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoInfrastructController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoHardRouteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoHardRouteController.java" />
@@ -210,6 +551,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoGroupController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/ui/angular.json" />
       </list>
     </option>
   </component>
@@ -219,6 +562,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_test_proj" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_test_proj" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -232,8 +591,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,60 +614,47 @@
               <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_test_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_test_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557424900108" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAPZ" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/ui" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="ts.external.directory.path" value="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\ui\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\static" />
-      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\static" />
-      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\templates" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spring.db.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\ui" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\static" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\ui" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\ui" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\static" />
+      <recent name="C:\Users\Vadim\IdeaProjects\spring_test_proj\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,23 +669,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.db.Application" />
-      <module name="spring_test_proj" />
+      <option name="MAIN_CLASS_NAME" value="com.mapz.Application" />
+      <module name="MapzProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring_test_proj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.db.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MapzProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mapz.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/src/main/ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -358,12 +729,20 @@
       <updated>1552322564037</updated>
       <workItem from="1558026767563" duration="846000" />
       <workItem from="1558077930231" duration="6347000" />
-      <workItem from="1558099193801" duration="1918000" />
+      <workItem from="1558099193801" duration="2253000" />
+      <workItem from="1558175511803" duration="2789000" />
+      <workItem from="1558187355070" duration="1331000" />
+      <workItem from="1558194103569" duration="541000" />
+      <workItem from="1558194939199" duration="321000" />
+      <workItem from="1558195361681" duration="208000" />
+      <workItem from="1558195609146" duration="79000" />
+      <workItem from="1558195811301" duration="7000" />
+      <workItem from="1558207453673" duration="4700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10221000" />
+    <option name="totallyTimeSpent" value="20532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,9 +755,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33087248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26107383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,16 +764,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3838527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3838527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27092198" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42917848" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -410,8 +789,8 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.17114094" />
       <window_info anchor="right" id="Database" order="11" />
     </layout>
   </component>
@@ -419,41 +798,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoCategoryPersonal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoBrigadirController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/SimpleCORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/model/AutoProp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -659,30 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -789,8 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/repository/AutoRepairRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="46" column="71" lean-forward="true" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+        <state relative-caret-position="149">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="50" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -799,11 +1119,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/controller/AutoRepairController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+        <state relative-caret-position="250">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/db/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ui/src/app/page/auto/auto.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ui/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ui/.idea/DB.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ui/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ui/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
