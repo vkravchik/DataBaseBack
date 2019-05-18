@@ -18,8 +18,6 @@
 *.ipr
 /out/
 
-/src/main/ui/
-
 ### NetBeans ###
 /nbproject/private/
 /build/
