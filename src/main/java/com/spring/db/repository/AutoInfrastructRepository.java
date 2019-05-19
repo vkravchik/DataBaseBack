@@ -13,6 +13,6 @@ public interface AutoInfrastructRepository extends CrudRepository<AutoInfrastruc
 
     @Query(value = "SELECT * FROM auto_infrastruct\n" +
             "INNER JOIN auto_category ON auto_category.id = auto_infrastruct.id_category\n" +
-            "WHERE auto_infrastruct.name = 'Гараж' AND auto_category.name = :category", nativeQuery = true)
+            "WHERE auto_infrastruct.name = 'Гараж' OR auto_infrastruct.name = 'Garage' AND auto_category.name = :category", nativeQuery = true)
     Iterable<AutoInfrastruct> findAllGarageByCategory(@Param("category") String category);
 }
