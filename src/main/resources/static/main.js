@@ -10687,7 +10687,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    apiUrl: 'http://vkravchik.herokuapp.com/rest/',
+    apiUrl: 'https://vkravchik.herokuapp.com/rest/',
     apiUser: '/users',
     apiDriver: '/drivers',
     apiCategory: '/category',
