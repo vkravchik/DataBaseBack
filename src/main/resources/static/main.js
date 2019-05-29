@@ -100,7 +100,11 @@ var AppComponent = /** @class */ (function () {
             { title: 'Query_7', path: '/query7', rols: ['admin'] },
             { title: 'Query_8', path: '/query8', rols: ['admin'] },
             { title: 'Query_9', path: '/query9', rols: ['admin'] },
-            { title: 'Query_10', path: '/query10', rols: ['admin'] }
+            { title: 'Query_10', path: '/query10', rols: ['admin'] },
+            { title: 'Query_11', path: '/query11', rols: ['admin'] },
+            { title: 'Query_12', path: '/query12', rols: ['admin'] },
+            { title: 'Query_13', path: '/query13', rols: ['admin'] },
+            { title: 'Query_14', path: '/query14', rols: ['admin'] },
         ];
         console.log(this.router.url);
     }
@@ -208,6 +212,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _query_query8_query8_component__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./query/query8/query8.component */ "./src/app/query/query8/query8.component.ts");
 /* harmony import */ var _query_query8_q8d_q8d_component__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./query/query8/q8d/q8d.component */ "./src/app/query/query8/q8d/q8d.component.ts");
 /* harmony import */ var _query_query9_query9_component__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./query/query9/query9.component */ "./src/app/query/query9/query9.component.ts");
+/* harmony import */ var _query_query11_query11_component__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ./query/query11/query11.component */ "./src/app/query/query11/query11.component.ts");
+/* harmony import */ var _query_query12_query12_component__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ./query/query12/query12.component */ "./src/app/query/query12/query12.component.ts");
+/* harmony import */ var _query_query13_query13_component__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ./query/query13/query13.component */ "./src/app/query/query13/query13.component.ts");
+/* harmony import */ var _query_query14_query14_component__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ./query/query14/query14.component */ "./src/app/query/query14/query14.component.ts");
+/* harmony import */ var _query_query11_q11d_q11d_component__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ./query/query11/q11d/q11d.component */ "./src/app/query/query11/q11d/q11d.component.ts");
+/* harmony import */ var _query_query12_q12d_q12d_component__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ./query/query12/q12d/q12d.component */ "./src/app/query/query12/q12d/q12d.component.ts");
+/* harmony import */ var _query_query13_q13d_q13d_component__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ./query/query13/q13d/q13d.component */ "./src/app/query/query13/q13d/q13d.component.ts");
+/* harmony import */ var _query_query14_q14d_q14d_component__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ./query/query14/q14d/q14d.component */ "./src/app/query/query14/q14d/q14d.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -293,8 +305,16 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
+
+
+
+
+
+
 var appRoutes = [
-    { path: '', component: _page_user_user_component__WEBPACK_IMPORTED_MODULE_7__["UserComponent"], data: { title: 'User' } },
+    { path: '', component: _page_auto_auto_component__WEBPACK_IMPORTED_MODULE_12__["AutoComponent"], data: { title: 'Auto' } },
     { path: 'auto', component: _page_auto_auto_component__WEBPACK_IMPORTED_MODULE_12__["AutoComponent"] },
     { path: 'brigada', component: _page_brigada_brigada_component__WEBPACK_IMPORTED_MODULE_13__["BrigadaComponent"] },
     { path: 'brigadir', component: _page_brigadir_brigadir_component__WEBPACK_IMPORTED_MODULE_14__["BrigadirComponent"] },
@@ -322,6 +342,10 @@ var appRoutes = [
     { path: 'query8', component: _query_query8_query8_component__WEBPACK_IMPORTED_MODULE_76__["Query8Component"] },
     { path: 'query9', component: _query_query9_query9_component__WEBPACK_IMPORTED_MODULE_78__["Query9Component"] },
     { path: 'query10', component: _query_query10_query10_component__WEBPACK_IMPORTED_MODULE_70__["Query10Component"] },
+    { path: 'query11', component: _query_query11_query11_component__WEBPACK_IMPORTED_MODULE_79__["Query11Component"] },
+    { path: 'query12', component: _query_query12_query12_component__WEBPACK_IMPORTED_MODULE_80__["Query12Component"] },
+    { path: 'query13', component: _query_query13_query13_component__WEBPACK_IMPORTED_MODULE_81__["Query13Component"] },
+    { path: 'query14', component: _query_query14_query14_component__WEBPACK_IMPORTED_MODULE_82__["Query14Component"] },
     // { path: 'street', component: ApiTableComponent },
     { path: '**', component: _page_user_user_component__WEBPACK_IMPORTED_MODULE_7__["UserComponent"] },
 ];
@@ -400,6 +424,14 @@ var AppModule = /** @class */ (function () {
                 _query_query8_query8_component__WEBPACK_IMPORTED_MODULE_76__["Query8Component"],
                 _query_query8_q8d_q8d_component__WEBPACK_IMPORTED_MODULE_77__["Q8dComponent"],
                 _query_query9_query9_component__WEBPACK_IMPORTED_MODULE_78__["Query9Component"],
+                _query_query11_query11_component__WEBPACK_IMPORTED_MODULE_79__["Query11Component"],
+                _query_query12_query12_component__WEBPACK_IMPORTED_MODULE_80__["Query12Component"],
+                _query_query13_query13_component__WEBPACK_IMPORTED_MODULE_81__["Query13Component"],
+                _query_query14_query14_component__WEBPACK_IMPORTED_MODULE_82__["Query14Component"],
+                _query_query11_q11d_q11d_component__WEBPACK_IMPORTED_MODULE_83__["Q11dComponent"],
+                _query_query12_q12d_q12d_component__WEBPACK_IMPORTED_MODULE_84__["Q12dComponent"],
+                _query_query13_q13d_q13d_component__WEBPACK_IMPORTED_MODULE_85__["Q13dComponent"],
+                _query_query14_q14d_q14d_component__WEBPACK_IMPORTED_MODULE_86__["Q14dComponent"],
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -475,6 +507,10 @@ var AppModule = /** @class */ (function () {
                 _query_query6_q6d_q6d_component__WEBPACK_IMPORTED_MODULE_74__["Q6dComponent"],
                 _query_query8_q8d_q8d_component__WEBPACK_IMPORTED_MODULE_77__["Q8dComponent"],
                 _query_query10_q10d_q10d_component__WEBPACK_IMPORTED_MODULE_71__["Q10dComponent"],
+                _query_query11_q11d_q11d_component__WEBPACK_IMPORTED_MODULE_83__["Q11dComponent"],
+                _query_query12_q12d_q12d_component__WEBPACK_IMPORTED_MODULE_84__["Q12dComponent"],
+                _query_query13_q13d_q13d_component__WEBPACK_IMPORTED_MODULE_85__["Q13dComponent"],
+                _query_query14_q14d_q14d_component__WEBPACK_IMPORTED_MODULE_86__["Q14dComponent"],
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
         })
@@ -7743,6 +7779,912 @@ var Query10Component = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/query/query11/q11d/q11d.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/query/query11/q11d/q11d.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".modal {\r\n  width: 400px;\r\n  height: auto;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query11/q11d/q11d.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/query/query11/q11d/q11d.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"modal\">\n  <mat-grid-list cols=\"1\" rowHeight=\"60px\">\n    <form class=\"form\" #formControl=\"ngForm\" [formGroup]=\"form\">\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <mat-label>Category</mat-label>\n          <mat-select (selectionChange)=\"selectedCategory($event.value)\">\n            <mat-option>None</mat-option>\n            <mat-option *ngFor=\"let item of categorys\" [value]=\"item.id\">\n              {{item.name}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <mat-label>Marka</mat-label>\n          <mat-select (selectionChange)=\"selectedDetail($event.value)\">\n            <mat-option>None</mat-option>\n            <mat-option *ngFor=\"let item of details\" [value]=\"item.id\">\n              {{item.name}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <button mat-button\n                color=\"primary\"\n                [disabled]=\"!formControl.valid\"\n                [mat-dialog-close]=\"1\"\n                (click)=\"stop()\">\n          Create\n        </button>\n        <button mat-button\n                color=\"warn\"\n                (click)=\"onNoClick()\"\n                tabindex=\"-1\">\n          Cancel\n        </button>\n      </mat-grid-tile>\n    </form>\n  </mat-grid-list>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query11/q11d/q11d.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/query/query11/q11d/q11d.component.ts ***!
+  \******************************************************/
+/*! exports provided: Q11dComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Q11dComponent", function() { return Q11dComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_dialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/dialog.service */ "./src/app/services/dialog.service.ts");
+/* harmony import */ var _services_category_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/category.service */ "./src/app/services/category.service.ts");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_problem_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/problem.service */ "./src/app/services/problem.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+var Q11dComponent = /** @class */ (function () {
+    function Q11dComponent(_dialog, _category, _problem, query, formBuilder, dialogRef, data) {
+        this._dialog = _dialog;
+        this._category = _category;
+        this._problem = _problem;
+        this.query = query;
+        this.formBuilder = formBuilder;
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    Q11dComponent.prototype.ngOnInit = function () {
+        this.form = this.formBuilder.group({
+            category: null,
+            detail: null,
+        });
+        this.getCategorys();
+        this.getDetails();
+    };
+    Q11dComponent.prototype.onNoClick = function () {
+        this.dialogRef.close();
+    };
+    Q11dComponent.prototype.stop = function () {
+        this.query.dialogsForm = this.form.value;
+    };
+    Q11dComponent.prototype.selectedCategory = function (event) {
+        var _this = this;
+        this._category.getSingle(event).subscribe(function (res) {
+            _this.form.patchValue({
+                category: res.name
+            });
+        });
+    };
+    Q11dComponent.prototype.selectedDetail = function (event) {
+        var _this = this;
+        this._problem.getSingle(event).subscribe(function (res) {
+            _this.form.patchValue({
+                detail: res.name
+            });
+        });
+    };
+    Q11dComponent.prototype.getCategorys = function () {
+        var _this = this;
+        this._category.getAll().subscribe(function (res) {
+            _this.categorys = res;
+        });
+    };
+    Q11dComponent.prototype.getDetails = function () {
+        var _this = this;
+        this._problem.getAll().subscribe(function (res) {
+            _this.details = res;
+        });
+    };
+    Q11dComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-q11d',
+            template: __webpack_require__(/*! ./q11d.component.html */ "./src/app/query/query11/q11d/q11d.component.html"),
+            styles: [__webpack_require__(/*! ./q11d.component.css */ "./src/app/query/query11/q11d/q11d.component.css")]
+        }),
+        __param(6, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__["DialogService"],
+            _services_category_service__WEBPACK_IMPORTED_MODULE_3__["CategoryService"],
+            _services_problem_service__WEBPACK_IMPORTED_MODULE_6__["ProblemService"],
+            _services_query_service__WEBPACK_IMPORTED_MODULE_4__["QueryService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogRef"], Object])
+    ], Q11dComponent);
+    return Q11dComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query11/query11.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/query/query11/query11.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/query/query11/query11.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/query/query11/query11.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table mat-table #table [dataSource]=\"dataSource\" matSort class=\"mat-elevation-z8\">\n  <!-- Position Column -->\n  <ng-container matColumnDef=\"id\">\n    <th mat-header-cell *matHeaderCellDef> No. </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.id}} </td>\n  </ng-container>\n\n  <!-- Name Column -->\n  <ng-container matColumnDef=\"ProblemName\">\n    <th mat-header-cell *matHeaderCellDef> Problem </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoProblem.name}} </td>\n  </ng-container>\n\n  <!-- Auto Column -->\n  <ng-container matColumnDef=\"Auto\">\n    <th mat-header-cell *matHeaderCellDef> Auto </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.auto.autoMarka.name}}: {{element.auto.autoCategory.name}}</td>\n  </ng-container>\n\n  <!-- Date Column -->\n  <ng-container matColumnDef=\"Date\">\n    <th mat-header-cell *matHeaderCellDef> Date </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.date | date: 'dd/MM/yyyy'}} </td>\n  </ng-container>\n\n  <!-- PersonalName Column -->\n  <ng-container matColumnDef=\"PersonalName\">\n    <th mat-header-cell *matHeaderCellDef> Personal </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoPersonal.name}} {{element.autoPersonal.surname}} </td>\n  </ng-container>\n\n  <!-- Price Column -->\n  <ng-container matColumnDef=\"Price\">\n    <th mat-header-cell *matHeaderCellDef> Price </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.price}} </td>\n  </ng-container>\n\n  <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n</table>\n\n<mat-paginator [pageSizeOptions]=\"[5, 10, 25, 100]\" pageSize=\"10\"></mat-paginator>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query11/query11.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/query/query11/query11.component.ts ***!
+  \****************************************************/
+/*! exports provided: Query11Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Query11Component", function() { return Query11Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _q11d_q11d_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./q11d/q11d.component */ "./src/app/query/query11/q11d/q11d.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var Query11Component = /** @class */ (function () {
+    function Query11Component(query, dialog) {
+        this.query = query;
+        this.dialog = dialog;
+        this.displayedColumns = ['id', 'ProblemName', 'Auto', 'Date', 'PersonalName', 'Price'];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"]();
+        this.openDialog();
+    }
+    Query11Component.prototype.ngOnInit = function () {
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    };
+    Query11Component.prototype.openDialog = function () {
+        var _this = this;
+        var dialogRef = this.dialog.open(_q11d_q11d_component__WEBPACK_IMPORTED_MODULE_3__["Q11dComponent"]);
+        dialogRef.afterClosed().subscribe(function (res) {
+            if (res === 1) {
+                _this.executeQuery();
+            }
+        });
+    };
+    Query11Component.prototype.executeQuery = function () {
+        var _this = this;
+        this.query.query11(this.query.dialogsForm.category, this.query.dialogsForm.detail).subscribe(function (res) {
+            console.log(res);
+            _this.dataSource.data = res;
+        });
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"])
+    ], Query11Component.prototype, "paginator", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"])
+    ], Query11Component.prototype, "sort", void 0);
+    Query11Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-query11',
+            template: __webpack_require__(/*! ./query11.component.html */ "./src/app/query/query11/query11.component.html"),
+            styles: [__webpack_require__(/*! ./query11.component.css */ "./src/app/query/query11/query11.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_query_service__WEBPACK_IMPORTED_MODULE_2__["QueryService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"]])
+    ], Query11Component);
+    return Query11Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query12/q12d/q12d.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/query/query12/q12d/q12d.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".modal {\r\n  width: 400px;\r\n  height: auto;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query12/q12d/q12d.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/query/query12/q12d/q12d.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"modal\">\n  <mat-grid-list cols=\"1\" rowHeight=\"60px\">\n    <form class=\"form\" #formControl=\"ngForm\" [formGroup]=\"form\">\n\n      <mat-grid-tile>\n        <mat-slide-toggle (toggleChange)=\"toggleButton()\" formControlName=\"status\">\n          <mat-label>{{toggle ? 'Buy' : 'Sale'}}</mat-label>\n        </mat-slide-toggle>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a start date\" formControlName=\"date_start\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker></mat-datepicker>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker1\" placeholder=\"Choose a finish date\" formControlName=\"date_finish\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker1\"></mat-datepicker-toggle>\n          <mat-datepicker #picker1></mat-datepicker>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <button mat-button\n                color=\"primary\"\n                [disabled]=\"!formControl.valid\"\n                [mat-dialog-close]=\"1\"\n                (click)=\"stop()\">\n          Create\n        </button>\n        <button mat-button\n                color=\"warn\"\n                (click)=\"onNoClick()\"\n                tabindex=\"-1\">\n          Cancel\n        </button>\n      </mat-grid-tile>\n\n    </form>\n  </mat-grid-list>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query12/q12d/q12d.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/query/query12/q12d/q12d.component.ts ***!
+  \******************************************************/
+/*! exports provided: Q12dComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Q12dComponent", function() { return Q12dComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_dialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/dialog.service */ "./src/app/services/dialog.service.ts");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+var Q12dComponent = /** @class */ (function () {
+    function Q12dComponent(_dialog, query, formBuilder, datepipe, dialogRef, data) {
+        this._dialog = _dialog;
+        this.query = query;
+        this.formBuilder = formBuilder;
+        this.datepipe = datepipe;
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    Q12dComponent.prototype.ngOnInit = function () {
+        this.form = this.formBuilder.group({
+            status: null,
+            date_start: null,
+            date_finish: null
+        });
+    };
+    Q12dComponent.prototype.onNoClick = function () {
+        this.dialogRef.close();
+    };
+    Q12dComponent.prototype.stop = function () {
+        this.form.setValue({
+            status: this.toggle ? 1 : 0,
+            date_start: this.datepipe.transform(this.form.getRawValue().date_start, 'yyyy-MM-dd'),
+            date_finish: this.datepipe.transform(this.form.getRawValue().date_finish, 'yyyy-MM-dd')
+        });
+        this.query.dialogsForm = this.form.value;
+    };
+    Q12dComponent.prototype.toggleButton = function () {
+        this.toggle = !this.toggle;
+    };
+    Q12dComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-q12d',
+            template: __webpack_require__(/*! ./q12d.component.html */ "./src/app/query/query12/q12d/q12d.component.html"),
+            styles: [__webpack_require__(/*! ./q12d.component.css */ "./src/app/query/query12/q12d/q12d.component.css")]
+        }),
+        __param(5, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__["DialogService"],
+            _services_query_service__WEBPACK_IMPORTED_MODULE_3__["QueryService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogRef"], Object])
+    ], Q12dComponent);
+    return Q12dComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query12/query12.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/query/query12/query12.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/query/query12/query12.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/query/query12/query12.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table mat-table #table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\">\n  <!-- Position Column -->\n  <ng-container matColumnDef=\"id\">\n    <th mat-header-cell *matHeaderCellDef> No. </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.id}} </td>\n  </ng-container>\n\n  <!-- Category Column -->\n  <ng-container matColumnDef=\"Category\">\n    <th mat-header-cell *matHeaderCellDef> Category </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.auto.autoCategory.name}}</td>\n  </ng-container>\n\n  <!-- Marka Column -->\n  <ng-container matColumnDef=\"Marka\">\n    <th mat-header-cell *matHeaderCellDef> Marka </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.auto.autoMarka.name}}</td>\n  </ng-container>\n\n  <!-- Date Column -->\n  <ng-container matColumnDef=\"Date\">\n    <th mat-header-cell *matHeaderCellDef> Date </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.date | date: 'dd/MM/yyyy'}} </td>\n  </ng-container>\n\n  <!-- saleBuy Column -->\n  <ng-container matColumnDef=\"saleBuy\">\n    <th mat-header-cell *matHeaderCellDef> Sale / Buy </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.sale_buy ? 'Buy' : 'Sale'}} </td>\n  </ng-container>\n\n  <!-- Price Column -->\n  <ng-container matColumnDef=\"Price\">\n    <th mat-header-cell *matHeaderCellDef> Price </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.price}} </td>\n  </ng-container>\n\n  <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n</table>\n\n<mat-paginator #paginator\n               [length]=\"dataSource.filteredData.length\"\n               [pageIndex]=\"0\"\n               [pageSize]=\"10\"\n               [pageSizeOptions]=\"[5, 10, 25, 100]\">\n</mat-paginator>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query12/query12.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/query/query12/query12.component.ts ***!
+  \****************************************************/
+/*! exports provided: Query12Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Query12Component", function() { return Query12Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _q12d_q12d_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./q12d/q12d.component */ "./src/app/query/query12/q12d/q12d.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var Query12Component = /** @class */ (function () {
+    function Query12Component(query, dialog) {
+        this.query = query;
+        this.dialog = dialog;
+        this.displayedColumns = ['id', 'Category', 'Marka', 'Date', 'saleBuy', 'Price'];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"]();
+        this.openDialog();
+    }
+    Query12Component.prototype.ngOnInit = function () {
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    };
+    Query12Component.prototype.openDialog = function () {
+        var _this = this;
+        var dialogRef = this.dialog.open(_q12d_q12d_component__WEBPACK_IMPORTED_MODULE_3__["Q12dComponent"]);
+        dialogRef.afterClosed().subscribe(function (res) {
+            if (res === 1) {
+                _this.executeQuery();
+            }
+        });
+    };
+    Query12Component.prototype.executeQuery = function () {
+        var _this = this;
+        this.query.query12(this.query.dialogsForm.status, this.query.dialogsForm.date_start, this.query.dialogsForm.date_finish).subscribe(function (res) {
+            console.log(res);
+            _this.dataSource.data = res;
+        });
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"])
+    ], Query12Component.prototype, "paginator", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"])
+    ], Query12Component.prototype, "sort", void 0);
+    Query12Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-query12',
+            template: __webpack_require__(/*! ./query12.component.html */ "./src/app/query/query12/query12.component.html"),
+            styles: [__webpack_require__(/*! ./query12.component.css */ "./src/app/query/query12/query12.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_query_service__WEBPACK_IMPORTED_MODULE_2__["QueryService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"]])
+    ], Query12Component);
+    return Query12Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query13/q13d/q13d.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/query/query13/q13d/q13d.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".modal {\r\n  width: 400px;\r\n  height: auto;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query13/q13d/q13d.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/query/query13/q13d/q13d.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"modal\">\n  <mat-grid-list cols=\"1\" rowHeight=\"60px\">\n    <form class=\"form\" #formControl=\"ngForm\" [formGroup]=\"form\">\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <mat-label>Brigadir</mat-label>\n          <mat-select (selectionChange)=\"selectedBrigadir($event.value)\">\n            <mat-option>None</mat-option>\n            <mat-option *ngFor=\"let item of brigadirs\" [value]=\"item.id\">\n              {{item.name}} - {{item.surname}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <button mat-button\n                color=\"primary\"\n                [disabled]=\"!formControl.valid\"\n                [mat-dialog-close]=\"1\"\n                (click)=\"stop()\">\n          Create\n        </button>\n        <button mat-button\n                color=\"warn\"\n                (click)=\"onNoClick()\"\n                tabindex=\"-1\">\n          Cancel\n        </button>\n      </mat-grid-tile>\n    </form>\n  </mat-grid-list>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query13/q13d/q13d.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/query/query13/q13d/q13d.component.ts ***!
+  \******************************************************/
+/*! exports provided: Q13dComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Q13dComponent", function() { return Q13dComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_dialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/dialog.service */ "./src/app/services/dialog.service.ts");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_brigadir_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/brigadir.service */ "./src/app/services/brigadir.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+var Q13dComponent = /** @class */ (function () {
+    function Q13dComponent(_dialog, _brigadir, query, formBuilder, dialogRef, data) {
+        this._dialog = _dialog;
+        this._brigadir = _brigadir;
+        this.query = query;
+        this.formBuilder = formBuilder;
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    Q13dComponent.prototype.ngOnInit = function () {
+        this.form = this.formBuilder.group({
+            brigadir: null,
+        });
+        this.getBrigadirs();
+    };
+    Q13dComponent.prototype.onNoClick = function () {
+        this.dialogRef.close();
+    };
+    Q13dComponent.prototype.stop = function () {
+        this.query.dialogsForm = this.form.value;
+    };
+    Q13dComponent.prototype.selectedBrigadir = function (event) {
+        var _this = this;
+        this._brigadir.getSingle(event).subscribe(function (res) {
+            _this.form.patchValue({
+                brigadir: res.id
+            });
+        });
+    };
+    Q13dComponent.prototype.getBrigadirs = function () {
+        var _this = this;
+        this._brigadir.getAll().subscribe(function (res) {
+            _this.brigadirs = res;
+        });
+    };
+    Q13dComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-q13d',
+            template: __webpack_require__(/*! ./q13d.component.html */ "./src/app/query/query13/q13d/q13d.component.html"),
+            styles: [__webpack_require__(/*! ./q13d.component.css */ "./src/app/query/query13/q13d/q13d.component.css")]
+        }),
+        __param(5, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_4__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__["DialogService"],
+            _services_brigadir_service__WEBPACK_IMPORTED_MODULE_5__["BrigadirService"],
+            _services_query_service__WEBPACK_IMPORTED_MODULE_3__["QueryService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDialogRef"], Object])
+    ], Q13dComponent);
+    return Q13dComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query13/query13.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/query/query13/query13.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/query/query13/query13.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/query/query13/query13.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table mat-table #table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\">\n  <!-- Position Column -->\n  <ng-container matColumnDef=\"id\">\n    <th mat-header-cell *matHeaderCellDef> No. </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.id}} </td>\n  </ng-container>\n\n  <!-- PersonalName Column -->\n  <ng-container matColumnDef=\"PersonalName\">\n    <th mat-header-cell *matHeaderCellDef> Personal Name </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoPersonal.name}} {{element.autoPersonal.surname}} </td>\n  </ng-container>\n\n  <!-- DriversName Column -->\n  <ng-container matColumnDef=\"DriversName\">\n    <th mat-header-cell *matHeaderCellDef> Drivers Name </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoDrivers.name}} {{element.autoDrivers.surname}}</td>\n  </ng-container>\n\n  <!-- BrigadaName Column -->\n  <ng-container matColumnDef=\"BrigadaName\">\n    <th mat-header-cell *matHeaderCellDef> Brigada Name </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoBrigada.name}}</td>\n  </ng-container>\n\n  <!-- BrigadirName Column -->\n  <ng-container matColumnDef=\"BrigadirName\">\n    <th mat-header-cell *matHeaderCellDef> Brigadir Name </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoBrigadir.name}} {{element.autoBrigadir.surname}}</td>\n  </ng-container>\n\n  <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n</table>\n\n<mat-paginator #paginator\n               [length]=\"dataSource.filteredData.length\"\n               [pageIndex]=\"0\"\n               [pageSize]=\"10\"\n               [pageSizeOptions]=\"[5, 10, 25, 100]\">\n</mat-paginator>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query13/query13.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/query/query13/query13.component.ts ***!
+  \****************************************************/
+/*! exports provided: Query13Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Query13Component", function() { return Query13Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _q13d_q13d_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./q13d/q13d.component */ "./src/app/query/query13/q13d/q13d.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var Query13Component = /** @class */ (function () {
+    function Query13Component(query, dialog) {
+        this.query = query;
+        this.dialog = dialog;
+        this.displayedColumns = ['id', 'PersonalName', 'DriversName', 'BrigadaName', 'BrigadirName'];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"]();
+        this.openDialog();
+    }
+    Query13Component.prototype.ngOnInit = function () {
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    };
+    Query13Component.prototype.openDialog = function () {
+        var _this = this;
+        var dialogRef = this.dialog.open(_q13d_q13d_component__WEBPACK_IMPORTED_MODULE_3__["Q13dComponent"]);
+        dialogRef.afterClosed().subscribe(function (res) {
+            if (res === 1) {
+                _this.executeQuery();
+            }
+        });
+    };
+    Query13Component.prototype.executeQuery = function () {
+        var _this = this;
+        this.query.query13(this.query.dialogsForm.brigadir).subscribe(function (res) {
+            console.log(res);
+            _this.dataSource.data = res;
+        });
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"])
+    ], Query13Component.prototype, "paginator", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"])
+    ], Query13Component.prototype, "sort", void 0);
+    Query13Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-query13',
+            template: __webpack_require__(/*! ./query13.component.html */ "./src/app/query/query13/query13.component.html"),
+            styles: [__webpack_require__(/*! ./query13.component.css */ "./src/app/query/query13/query13.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_query_service__WEBPACK_IMPORTED_MODULE_2__["QueryService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"]])
+    ], Query13Component);
+    return Query13Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query14/q14d/q14d.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/query/query14/q14d/q14d.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".modal {\r\n  width: 400px;\r\n  height: auto;\r\n}\r\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query14/q14d/q14d.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/query/query14/q14d/q14d.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"modal\">\n  <mat-grid-list cols=\"1\" rowHeight=\"60px\">\n    <form class=\"form\" #formControl=\"ngForm\" [formGroup]=\"form\">\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <mat-label>Person</mat-label>\n          <mat-select (selectionChange)=\"selectedPerson($event.value)\">\n            <mat-option>None</mat-option>\n            <mat-option *ngFor=\"let item of persons\" [value]=\"item.id\">\n              {{item.name}} - {{item.surname}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <mat-label>Auto</mat-label>\n          <mat-select (selectionChange)=\"selectedAuto($event.value)\" formControlName=\"auto\">\n            <mat-option>None</mat-option>\n            <mat-option *ngFor=\"let item of auto\" [value]=\"item.id\">\n              {{item.autoCategory.name}} - {{item.autoMarka.name}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker\" placeholder=\"Choose a start date\" formControlName=\"date_start\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker></mat-datepicker>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <mat-form-field>\n          <input matInput [matDatepicker]=\"picker1\" placeholder=\"Choose a finish date\" formControlName=\"date_finish\">\n          <mat-datepicker-toggle matSuffix [for]=\"picker1\"></mat-datepicker-toggle>\n          <mat-datepicker #picker1></mat-datepicker>\n        </mat-form-field>\n      </mat-grid-tile>\n\n      <mat-grid-tile>\n        <button mat-button\n                color=\"primary\"\n                [disabled]=\"!formControl.valid\"\n                [mat-dialog-close]=\"1\"\n                (click)=\"stop()\">\n          Create\n        </button>\n        <button mat-button\n                color=\"warn\"\n                (click)=\"onNoClick()\"\n                tabindex=\"-1\">\n          Cancel\n        </button>\n      </mat-grid-tile>\n\n    </form>\n  </mat-grid-list>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query14/q14d/q14d.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/query/query14/q14d/q14d.component.ts ***!
+  \******************************************************/
+/*! exports provided: Q14dComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Q14dComponent", function() { return Q14dComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_dialog_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../services/dialog.service */ "./src/app/services/dialog.service.ts");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_personal_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../services/personal.service */ "./src/app/services/personal.service.ts");
+/* harmony import */ var _services_auto_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../services/auto.service */ "./src/app/services/auto.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+var Q14dComponent = /** @class */ (function () {
+    function Q14dComponent(_dialog, query, _auto, _person, formBuilder, datepipe, dialogRef, data) {
+        this._dialog = _dialog;
+        this.query = query;
+        this._auto = _auto;
+        this._person = _person;
+        this.formBuilder = formBuilder;
+        this.datepipe = datepipe;
+        this.dialogRef = dialogRef;
+        this.data = data;
+        this.aut = null;
+    }
+    Q14dComponent.prototype.ngOnInit = function () {
+        this.form = this.formBuilder.group({
+            person: null,
+            auto: null,
+            date_start: null,
+            date_finish: null
+        });
+        this.getPersons();
+        this.getAutos();
+    };
+    Q14dComponent.prototype.onNoClick = function () {
+        this.dialogRef.close();
+    };
+    Q14dComponent.prototype.stop = function () {
+        this.form.setValue({
+            person: this.person,
+            auto: this.aut,
+            date_start: this.datepipe.transform(this.form.getRawValue().date_start, 'yyyy-MM-dd'),
+            date_finish: this.datepipe.transform(this.form.getRawValue().date_finish, 'yyyy-MM-dd')
+        });
+        this.query.dialogsForm = this.form.value;
+    };
+    Q14dComponent.prototype.selectedPerson = function (event) {
+        var _this = this;
+        this._person.getSingle(event).subscribe(function (res) {
+            _this.person = res.id;
+        });
+    };
+    Q14dComponent.prototype.selectedAuto = function (event) {
+        var _this = this;
+        this._auto.getSingle(event).subscribe(function (res) {
+            _this.aut = res.id;
+        });
+    };
+    Q14dComponent.prototype.getPersons = function () {
+        var _this = this;
+        this._person.getAll().subscribe(function (res) {
+            _this.persons = res;
+        });
+    };
+    Q14dComponent.prototype.getAutos = function () {
+        var _this = this;
+        this._auto.getAll().subscribe(function (res) {
+            _this.auto = res;
+        });
+    };
+    Q14dComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-q14d',
+            template: __webpack_require__(/*! ./q14d.component.html */ "./src/app/query/query14/q14d/q14d.component.html"),
+            styles: [__webpack_require__(/*! ./q14d.component.css */ "./src/app/query/query14/q14d/q14d.component.css")]
+        }),
+        __param(7, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_5__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_services_dialog_service__WEBPACK_IMPORTED_MODULE_2__["DialogService"],
+            _services_query_service__WEBPACK_IMPORTED_MODULE_3__["QueryService"],
+            _services_auto_service__WEBPACK_IMPORTED_MODULE_7__["AutoService"],
+            _services_personal_service__WEBPACK_IMPORTED_MODULE_6__["PersonalService"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"],
+            _angular_common__WEBPACK_IMPORTED_MODULE_4__["DatePipe"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogRef"], Object])
+    ], Q14dComponent);
+    return Q14dComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/query/query14/query14.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/query/query14/query14.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/query/query14/query14.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/query/query14/query14.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<table mat-table #table [dataSource]=\"dataSource\" matSort class=\"mat-elevation-z8\">\n  <!-- Position Column -->\n  <ng-container matColumnDef=\"id\">\n    <th mat-header-cell *matHeaderCellDef> No. </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.id}} </td>\n  </ng-container>\n\n  <!-- Name Column -->\n  <ng-container matColumnDef=\"ProblemName\">\n    <th mat-header-cell *matHeaderCellDef> Problem </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoProblem.name}} </td>\n  </ng-container>\n\n  <!-- Auto Column -->\n  <ng-container matColumnDef=\"Auto\">\n    <th mat-header-cell *matHeaderCellDef> Auto </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.auto.autoMarka.name}}: {{element.auto.autoCategory.name}}</td>\n  </ng-container>\n\n  <!-- Date Column -->\n  <ng-container matColumnDef=\"Date\">\n    <th mat-header-cell *matHeaderCellDef> Date </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.date | date: 'dd/MM/yyyy'}} </td>\n  </ng-container>\n\n  <!-- PersonalName Column -->\n  <ng-container matColumnDef=\"PersonalName\">\n    <th mat-header-cell *matHeaderCellDef> Personal </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.autoPersonal.name}} {{element.autoPersonal.surname}} </td>\n  </ng-container>\n\n  <!-- Price Column -->\n  <ng-container matColumnDef=\"Price\">\n    <th mat-header-cell *matHeaderCellDef> Price </th>\n    <td mat-cell *matCellDef=\"let element\"> {{element.price}} </td>\n  </ng-container>\n\n  <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n  <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n</table>\n\n<mat-paginator [pageSizeOptions]=\"[5, 10, 25, 100]\" pageSize=\"10\"></mat-paginator>\n\n"
+
+/***/ }),
+
+/***/ "./src/app/query/query14/query14.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/query/query14/query14.component.ts ***!
+  \****************************************************/
+/*! exports provided: Query14Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Query14Component", function() { return Query14Component; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_query_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/query.service */ "./src/app/services/query.service.ts");
+/* harmony import */ var _q14d_q14d_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./q14d/q14d.component */ "./src/app/query/query14/q14d/q14d.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var Query14Component = /** @class */ (function () {
+    function Query14Component(query, dialog) {
+        this.query = query;
+        this.dialog = dialog;
+        this.displayedColumns = ['id', 'ProblemName', 'Auto', 'Date', 'PersonalName', 'Price'];
+        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"]();
+        this.openDialog();
+    }
+    Query14Component.prototype.ngOnInit = function () {
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    };
+    Query14Component.prototype.openDialog = function () {
+        var _this = this;
+        var dialogRef = this.dialog.open(_q14d_q14d_component__WEBPACK_IMPORTED_MODULE_3__["Q14dComponent"]);
+        dialogRef.afterClosed().subscribe(function (res) {
+            if (res === 1) {
+                _this.executeQuery();
+            }
+        });
+    };
+    Query14Component.prototype.executeQuery = function () {
+        var _this = this;
+        if (this.query.dialogsForm.person !== null && this.query.dialogsForm.auto === null) {
+            this.query.query14_1(this.query.dialogsForm.person, this.query.dialogsForm.date_start, this.query.dialogsForm.date_finish).subscribe(function (res) {
+                console.log(res);
+                _this.dataSource.data = res;
+            });
+        }
+        else if (this.query.dialogsForm.person !== null && this.query.dialogsForm.auto !== null) {
+            this.query.query14_2(this.query.dialogsForm.person, this.query.dialogsForm.auto, this.query.dialogsForm.date_start, this.query.dialogsForm.date_finish).subscribe(function (res) {
+                console.log(res);
+                _this.dataSource.data = res;
+            });
+        }
+        else if (this.query.dialogsForm.auto !== null && (this.query.dialogsForm.category === null && this.query.dialogsForm.marka === null)) {
+            this.query.query6_3(this.query.dialogsForm.auto).subscribe(function (res) {
+                console.log(res);
+                _this.dataSource.data = res;
+            });
+        }
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"])
+    ], Query14Component.prototype, "paginator", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"]),
+        __metadata("design:type", _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSort"])
+    ], Query14Component.prototype, "sort", void 0);
+    Query14Component = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-query14',
+            template: __webpack_require__(/*! ./query14.component.html */ "./src/app/query/query14/query14.component.html"),
+            styles: [__webpack_require__(/*! ./query14.component.css */ "./src/app/query/query14/query14.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_query_service__WEBPACK_IMPORTED_MODULE_2__["QueryService"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"]])
+    ], Query14Component);
+    return Query14Component;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/query/query2/q2d/q2d.component.css":
 /*!****************************************************!*\
   !*** ./src/app/query/query2/q2d/q2d.component.css ***!
@@ -10202,6 +11144,66 @@ var QueryService = /** @class */ (function () {
             return _this.rows;
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
     };
+    QueryService.prototype.query11 = function (category, detail) {
+        var _this = this;
+        var url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + 'repair/getAllByCarTypeAndDetail';
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Content-Type', 'application/json');
+        var params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('carType', category).set('detail', detail);
+        return this.http.get(url, { headers: headers, params: params }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
+            _this.rows = res;
+            return _this.rows;
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
+    };
+    QueryService.prototype.query12 = function (status, date_start, date_finish) {
+        var _this = this;
+        var url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + 'saleBuy/getAllByDate';
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Content-Type', 'application/json');
+        var params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('status', status).set('date_start', date_start).set('date_finish', date_finish);
+        return this.http.get(url, { headers: headers, params: params }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
+            _this.rows = res;
+            return _this.rows;
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
+    };
+    QueryService.prototype.query13 = function (brigadir) {
+        var _this = this;
+        var url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + 'group/getBrigadir';
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Content-Type', 'application/json');
+        var params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('id', brigadir);
+        return this.http.get(url, { headers: headers, params: params }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
+            _this.rows = res;
+            return _this.rows;
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
+    };
+    QueryService.prototype.query14_1 = function (person, date_start, date_finish) {
+        var _this = this;
+        var url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + 'repair/getAllByPersonAndDate';
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Content-Type', 'application/json');
+        var params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('person', person).set('date_start', date_start).set('date_finish', date_finish);
+        return this.http.get(url, { headers: headers, params: params }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
+            _this.rows = res;
+            return _this.rows;
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
+    };
+    QueryService.prototype.query14_2 = function (person, auto, date_start, date_finish) {
+        var _this = this;
+        var url = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + 'repair/getAllByPersonAndDate';
+        var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]();
+        headers.append('Content-Type', 'application/json');
+        headers.append('Content-Type', 'application/json');
+        var params = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('person', person).set('auto', auto).set('date_start', date_start).set('date_finish', date_finish);
+        return this.http.get(url, { headers: headers, params: params }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (res) {
+            _this.rows = res;
+            return _this.rows;
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(this._error.handleError));
+    };
     QueryService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
@@ -10687,7 +11689,7 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 var environment = {
     production: false,
-    apiUrl: 'http://localhost:8080/rest/',
+    apiUrl: 'https://vkravchik.herokuapp.com/rest/',
     apiUser: '/users',
     apiDriver: '/drivers',
     apiCategory: '/category',
